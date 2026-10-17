@@ -1,0 +1,12 @@
+{
+  "name": "document-assistant-frontend",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Document Assistant web UI and local API proxy (no npm dependencies).",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/source.js"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,15 @@
+# Install from the project root:
+#   python -m pip install -r requirements.txt
+#
+# Local PDF extraction, OCR integration, embeddings, vector storage and API.
+# Tesseract OCR is a separate system application; install it and its language
+# data separately if scanned PDFs need OCR (see PRD.md / backend README).
+
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+PyMuPDF
+sentence-transformers
+torch
+chromadb

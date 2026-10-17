@@ -1,0 +1,30 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+frontend/.env
+# Python environments, bytecode, and test artifacts
+myenv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Runtime document data and databases
+storage/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.db-wal
+*.db-shm
+chroma.sqlite3
+# Frontend package/build output (the current frontend has no build step)
+frontend/node_modules/
+frontend/dist/
